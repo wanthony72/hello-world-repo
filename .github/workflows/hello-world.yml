@@ -3,6 +3,6 @@ name: Hello World
 jobs:
     hello-job:
     runs-on: ubuntu-latest
-      steps:
-      - name: Echo text
+    steps:
+    - name: Echo text
       run: 'echo "Hello, world!"'
